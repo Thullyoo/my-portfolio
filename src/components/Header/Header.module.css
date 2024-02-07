@@ -1,0 +1,30 @@
+.header_container{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 1px solid black;
+}
+
+.logo img{
+ width: 9rem;
+}
+.nav_container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 1.25rem;
+}
+
+.nav_container ul{
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+ font-weight: bold;
+}
+
+a{
+ text-decoration: none;
+ color: black;
+}

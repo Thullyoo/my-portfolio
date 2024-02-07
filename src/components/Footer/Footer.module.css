@@ -1,0 +1,49 @@
+.footer_container{
+ width: auto;
+ background-color: white;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ padding: 1rem 0rem;
+}
+
+.curriculo_container{
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+}
+
+.curriculo_container button{
+  padding: 0.5rem 1rem;
+  background-color: burlywood;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+.contact_container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.contact_container ul{
+ display: flex;
+ flex-direction: row;
+ gap: 1rem;
+}
+
+.contact_container ul li a {
+ font-size: 2rem;
+}
+
+.git_icon{
+ fill: rgb(23, 15, 31);
+}
+.lkd_icon{
+ fill: rgb(9, 66, 115);
+}
+
+.mail_icon{
+ fill: rgb(176, 55, 55);
+}

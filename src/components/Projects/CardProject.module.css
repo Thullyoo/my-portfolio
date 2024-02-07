@@ -1,0 +1,65 @@
+.card_project{
+ width: 16.875rem;
+ margin: 1rem 0rem;
+ padding: 0.5rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
+ border: 1px solid black;
+ background-color: burlywood;
+ border-radius: 1rem;
+}
+
+.card_text{
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ width: 100%;
+}
+
+.card_text h1{
+ font-size: 1.5rem;
+}
+
+.img_project img{
+ border-radius: 0.8rem;
+ width: 15rem;
+}
+
+.card_tec{
+ display: flex;
+ width: 100%;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.btn_tec{
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+}
+
+.tec{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 50%; 
+}
+
+.tec ul{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 1rem;
+}
+
+.tec ul li svg{
+ font-size: 2.5rem;
+}
+.btn_tec button{
+ background-color: #25AFF3;
+ padding: 0.8rem 1rem;
+ border-radius: 1rem;
+ font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.projects_container{
+ width: auto;
+ border-bottom: 1px solid rgb(0, 0, 0);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 0rem 1rem;
+ overflow-x: auto;
+}
+.html5_icon{
+ fill: #CE492A;
+}
+
+.css3_icon{
+ fill: #42A5F5;
+}
+
+.js_icon{
+ fill: #FFCA28;
+}
+
+.ts_icon{
+ fill: #0288D1;
+}
+
+.react_icon{
+ fill: aquamarine;
+}
