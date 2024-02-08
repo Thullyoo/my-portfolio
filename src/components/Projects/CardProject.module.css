@@ -63,3 +63,25 @@
  border-radius: 1rem;
  font-weight: bold;
 }
+
+@media screen and (min-width: 480px) and (max-width:700px) {
+ .card_project{
+  width: 20rem;
+  padding: 2rem;
+ }
+ .img_project img{
+  width: 19rem;
+ }
+ .tec ul li svg{
+  font-size: 3rem;
+ }
+ .btn_tec button{
+  padding: 1rem 1.2rem;
+ }
+ .card_text h1{
+  font-size: 2rem;
+ }
+ .card_text h3{
+  font-size: 1.2rem;
+ }
+}

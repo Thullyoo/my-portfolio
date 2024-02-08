@@ -5,9 +5,19 @@
  flex-direction: column;
  align-items: center;
  justify-content: center;
- padding: 0rem 1rem;
+ padding: 5rem 1rem;
  overflow-x: auto;
 }
+
+.text_title{
+ font-size: 2rem;
+ margin-bottom: 2rem;
+}
+
+.projects_container h1{
+ font-family: 'Protest Revolution', sans-serif;
+}
+
 .html5_icon{
  fill: #CE492A;
 }

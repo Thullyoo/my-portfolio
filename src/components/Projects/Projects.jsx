@@ -20,6 +20,7 @@ import { FaReact } from "react-icons/fa";
 const Projects =() => {
  return(
   <div className={styles.projects_container}>
+  <h1 className={styles.text_title}>Meus Projetos: </h1>
    <CardProject 
    title="GitHub Finder" 
    description="Busca perfis do GitHub e mostra melhores projetos de acordo com as stars" 

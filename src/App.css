@@ -99,6 +99,8 @@ menu,
 nav,
 section {
   display: block;
+  font-family: 'Protest Revolution', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 body, html{
@@ -139,4 +141,3 @@ button {
   border: none;
   cursor: pointer;
 }
-

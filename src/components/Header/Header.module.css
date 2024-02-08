@@ -24,7 +24,18 @@
  font-weight: bold;
 }
 
+
 a{
  text-decoration: none;
  color: black;
 }
+
+@media screen and (min-width: 480px) and (max-width:700px) {
+ .logo img{
+   width: 12rem;
+ }
+ .nav_container ul li{
+  font-size: 1.5rem;
+ }
+}
+

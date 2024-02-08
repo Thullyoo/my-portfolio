@@ -3,6 +3,7 @@ import curriculum from '../../assets/curriculo.pdf'
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 
 
 const Footer =() => {
@@ -19,7 +20,7 @@ const Footer =() => {
    <div className={styles.footer_container}>
     <div className={styles.curriculo_container}>
       <h1>Meu curriculo:</h1>
-      <button onClick={downloadCurriculum}>Curriculo</button>
+      <button onClick={downloadCurriculum}>Curriculo <FaDownload/></button>
     </div>
     <div className={styles.contact_container}>
       <ul>
