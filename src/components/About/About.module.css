@@ -55,7 +55,7 @@
  fill: aquamarine;
 }
 
-@media screen and (min-width: 480px) and (max-width:700px){
+@media screen and (min-width: 480px) and (max-width:800px){
  .about_text h1{
   font-size: 3rem;
  }
@@ -66,4 +66,36 @@
   font-size:  2.8rem;
  }
  
+}
+
+@media screen and (min-width:801px){
+ .about_container{
+    flex-direction: row;;
+ }
+ .about_text h1{
+  font-size: 3rem;
+ }
+ .about_text h2{
+  font-size: 1.5rem;
+ }
+ .about_tec ul li svg{
+  font-size:  2.8rem;
+ }
+}
+@media screen and (min-width:1551px) {
+ .about_container{
+  flex-direction: row;
+ }
+ .about_text h1{
+  font-size: 5rem;
+ }
+ .about_text h2{
+  font-size: 1.5rem;
+ }
+ .about_tec ul li svg{
+  font-size:  4.5rem;
+ }
+ .about_tec{
+   margin: 6rem;
+ }
 }

@@ -21,7 +21,8 @@ const Projects =() => {
  return(
   <div className={styles.projects_container}>
   <h1 className={styles.text_title}>Meus Projetos: </h1>
-   <CardProject 
+  <div className={styles.cardprojects_content}>
+  <CardProject 
    title="GitHub Finder" 
    description="Busca perfis do GitHub e mostra melhores projetos de acordo com as stars" 
    img={card1img} 
@@ -100,6 +101,7 @@ const Projects =() => {
    tec2={<DiCss3 className={styles.css3_icon}/>}
    tec3={<IoLogoJavascript className={styles.js_icon}/>}
    />
+  </div>
   </div>
   
  )
