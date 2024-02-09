@@ -8,9 +8,16 @@
  align-items: center;
  gap: 1rem;
  border: 1px solid black;
- background-color: burlywood;
+ background-color: rgb(147, 70, 202);
  border-radius: 1rem;
+ transition: 0.3s ease-out;
 }
+
+.card_project:hover{
+ background-color: rgb(0, 0, 0);
+ color: white;
+}
+
 
 .card_text{
  display: flex;
@@ -26,6 +33,7 @@
 .img_project img{
  border-radius: 0.8rem;
  width: 15rem;
+ height: 10rem;
 }
 
 .card_tec{
@@ -62,6 +70,23 @@
  padding: 0.8rem 1rem;
  border-radius: 1rem;
  font-weight: bold;
+ transition: 0.3s ease-in-out;
+}
+
+.btn_tec button:hover{
+ background-color: blueviolet;
+}
+
+.btn_tec button a{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 0.5rem;
+ transition: 0.3s ease-in-out;
+}
+
+.btn_tec button:hover a{
+ color: white;
 }
 
 @media screen and (min-width: 480px) and (max-width:800px) {

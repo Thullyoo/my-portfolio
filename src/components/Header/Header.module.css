@@ -24,6 +24,15 @@
  font-weight: bold;
 }
 
+.nav_container ul li {
+  border-bottom: 5px solid transparent;
+  padding-bottom: 0.5rem;
+  transition: 0.2s ease-in-out;
+}
+
+.nav_container ul li:hover{
+  border-bottom:  5px solid blueviolet;
+}
 
 a{
  text-decoration: none;
