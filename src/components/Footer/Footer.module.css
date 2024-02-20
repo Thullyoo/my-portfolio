@@ -1,11 +1,11 @@
 .footer_container{
  width: 100%;
- background-color: white;
+ /* background-color: white; */
  display: flex;
  flex-direction: row;
  align-items: center;
  justify-content: space-around;
- padding: 1rem 0rem;
+ padding: 3rem 0rem;
 }
 
 .curriculo_container{

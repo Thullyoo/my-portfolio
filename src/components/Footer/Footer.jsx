@@ -5,17 +5,16 @@ import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 
-
 const Footer =() => {
   function downloadCurriculum(){
     let link = document.createElement('a')
-    link.href = '../../assets/curriculo.pdf'
-    link.download = curriculum 
-
+    link.href = "../../assets/curriculo.pdf"
+    link.setAttribute('download', curriculum)
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
   }
+  
   return(
    <div className={styles.footer_container}>
     <div className={styles.curriculo_container}>
@@ -31,7 +30,7 @@ const Footer =() => {
     </div>
    </div>
   )
-}
+  }
 
 
 export default Footer;
