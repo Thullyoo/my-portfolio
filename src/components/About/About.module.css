@@ -6,6 +6,8 @@
  align-items: center;
  justify-content: center;
  padding: 5rem 0rem 5rem 0rem;
+ color: white ;
+ background-color: black ;
 }
 
 .about_text h1{
@@ -47,12 +49,22 @@
  fill: #FFCA28;
 }
 
+.angular_icon{
+  fill: red;
+}
+
 .ts_icon{
  fill: #0288D1;
 }
 
 .react_icon{
  fill: aquamarine;
+}
+.java_icon{
+  fill: orange ;
+}
+.spring_icon{
+  fill: green;
 }
 
 @media screen and (min-width: 480px) and (max-width:800px){

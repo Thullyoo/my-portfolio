@@ -109,12 +109,7 @@ body, html{
 
 body {
  
-  line-height: 1;
-  background: rgb(255,255,255);
-  background: -moz-linear-gradient(27deg, rgba(255,255,255,1) 8%, rgba(114,255,0,1) 94%);
-  background: -webkit-linear-gradient(27deg, rgba(255,255,255,1) 8%, rgba(114,255,0,1) 94%);
-  background: linear-gradient(27deg, rgba(255,255,255,1) 8%, rgba(114,255,0,1) 94%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#72ff00",GradientType=1);
+ 
   
 }
 
