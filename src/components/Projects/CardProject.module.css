@@ -31,6 +31,8 @@
 
 .img_project img{
  border-radius: 0.8rem;
+ max-width: 15rem;
+ max-height: 10rem;
  width: 15rem;
  height: 10rem;
 }

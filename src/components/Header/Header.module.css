@@ -31,29 +31,41 @@
   transition: 0.2s ease-in-out;
 }
 
+
 .nav_container ul li:hover{
   border-bottom:  5px solid blueviolet;
 }
 
-a{
- text-decoration: none;
- color: black;
+.nav_container ul li a {
+  font-size: 1.5rem;
 }
+.git_icon{
+  fill: rgb(23, 15, 31);
+  
+ }
+ 
+ .lkd_icon{
+  fill: rgb(9, 66, 115);
+ }
+ 
+ .mail_icon{
+  fill: rgb(176, 55, 55);
+ }
 
 @media screen and (min-width: 480px) {
  .logo img{
    width: 12rem;
  }
- .nav_container ul li{
-  font-size: 1.5rem;
+ .nav_container ul li a{
+  font-size: 2rem;
  }
 }
 @media screen and (min-width:801px){
   .logo img{
     width: 14rem;
   }
-  .nav_container ul li {
-    font-size: 1.7rem;
+  .nav_container ul li a{
+    font-size: 3rem;
   }
   .nav_container ul{
     display: flex;
