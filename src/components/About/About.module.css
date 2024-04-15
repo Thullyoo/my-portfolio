@@ -66,6 +66,9 @@
 .spring_icon{
   fill: green;
 }
+.python_icon{
+  fill: blue;
+}
 
 @media screen and (min-width: 480px) and (max-width:800px){
  .about_text h1{
