@@ -47,6 +47,10 @@
   fill: blue;
 }
 
+.rabbit_icon{
+  fill: orange;
+}
+
 .cardprojects_content{
  display: flex;
  flex-direction: column;

@@ -1,13 +1,12 @@
 import { FaCode } from 'react-icons/fa';
 import styles from './CardProject.module.css';
-import { FiLink } from "react-icons/fi";
 import PropTypes from 'prop-types';
 
-const CardProject = ({img, title, description, link_code, link_site, tec1, tec2, tec3, tec4}) =>{
+const CardProjectBack = ({img, title, description, link_code, tec1, tec2, tec3, tec4}) =>{
  return(
   <div className={styles.card_project}>
     <div className={styles.img_project}>
-    <img src={img} alt="card1 imagem" />
+    <img src={img} alt="card imagem" />
     </div>
     <div className={styles.card_text}>
      <h1>{title}</h1>
@@ -23,8 +22,7 @@ const CardProject = ({img, title, description, link_code, link_site, tec1, tec2,
      </ul>
     </div>
     <div className={styles.btn_tec}>
-    <button> <a href={link_code}  target='_blank' rel="noreferrer">Ver código <FaCode/></a></button>
-    <button><a href={link_site} target='_blank' rel="noreferrer">Ver o site <FiLink/></a></button>
+    <button> <a href={link_code}  target='_blank' rel="noreferrer">Ver código <FaCode/></a></button>  
     </div>
     
     </div>
@@ -33,14 +31,13 @@ const CardProject = ({img, title, description, link_code, link_site, tec1, tec2,
  )
 }
 
-export default CardProject;
+export default CardProjectBack;
 
-CardProject.propTypes = {
+CardProjectBack.propTypes = {
   img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired, 
   link_code: PropTypes.string.isRequired, 
-  link_site: PropTypes.string.isRequired, 
   tec1: PropTypes.element.isRequired, 
   tec2: PropTypes.element.isRequired, 
   tec3: PropTypes.element, 
