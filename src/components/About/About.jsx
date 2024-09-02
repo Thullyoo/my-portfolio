@@ -8,7 +8,7 @@ const About =() => {
   <div className={styles.about_container}>
    <div className={styles.about_text}>
     <h1>Olá me chamo Thúllyo e sou um desenvolvedor Back-end JAVA</h1>
-    <h2>Atualmente estou matriculado na UNESA em Sistemas de Informação no 3 período, e venho estudando para me tornar um desenvolvedor Back-end JAVA ou Full-Stack, minhas principais tecnologias são:</h2>
+    <h2>Atualmente estou matriculado na UNESA em Sistemas de Informação no 4 período, e venho estudando para me tornar um desenvolvedor Back-end JAVA ou Full-Stack, minhas principais tecnologias são:</h2>
    </div>
    <div className={styles.about_tec}>
    <ul>
