@@ -1,5 +1,5 @@
 import styles from './About.module.css'
-import { FaJava, FaReact } from "react-icons/fa";
+import { FaAngular, FaJava } from "react-icons/fa";
 import { BiLogoPostgresql, BiLogoSpringBoot } from "react-icons/bi";
 
 
@@ -16,7 +16,7 @@ const About =() => {
       <li><FaJava className={styles.java_icon}></FaJava></li>
       <li><BiLogoSpringBoot className={styles.spring_icon}></BiLogoSpringBoot></li>
       <li><BiLogoPostgresql className={styles.postgres_icon}></BiLogoPostgresql></li>
-      <li><FaReact className={styles.react_icon}/></li>
+      <li><FaAngular className={styles.angular_icon}/></li>
      </ul>
    </div>
   </div>
